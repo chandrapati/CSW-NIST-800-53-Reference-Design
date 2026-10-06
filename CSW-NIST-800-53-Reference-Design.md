@@ -61,7 +61,7 @@ Cisco Secure Workload (CSW) is a **workload protection platform**. A lightweight
 
 **Console areas:** Investigate (inventory, flows, vulns) · Defend/Segmentation (policy) · Manage (agents) · Platform (connectors) · Administration (audit log)
 
-**Read next:** [Compliance evidence playbook](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/docs/compliance-evidence-playbook.md) (full step-by-step) · [About CSW](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/docs/about-csw.md) (platform intro)
+**Read next:** [Compliance evidence playbook](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/docs/compliance-evidence-playbook.md) (full step-by-step) · [About CSW](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/docs/about-csw.md) (platform intro)
 
 ---
 
@@ -257,14 +257,14 @@ CSW UI → Investigate → ADM
 
 ## Related Frameworks
 
-- [ISO/IEC 27001:2022](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/ISO-27001-2022/CSW-ISO27001-Technical-Runbook.md) — the international counterpart for organisations cross-mapping 800-53 to ISO Annex A.
-- [NIST SP 800-207](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/NIST-800-207/CSW-NIST-800-207-Technical-Runbook.md) — the ZTA architectural overlay on top of the 800-53 control catalogue.
-- [NIST SP 800-207A](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/NIST-800-207A/CSW-NIST-800-207A-Technical-Runbook.md) — the logical-component view that operationalises AC, SI, SC families.
-- [FIPS 140](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/FIPS-140/CSW-FIPS-Technical-Runbook.md) — SC-13 cryptographic-protection requirement for the 800-53 baselines.
-- [HIPAA](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/HIPAA/CSW-HIPAA-Technical-Runbook.md) — for healthcare entities that satisfy §164.306 via 800-53 mapping.
+- [ISO/IEC 27001:2022](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/ISO-27001-2022/CSW-ISO27001-Technical-Runbook.md) — the international counterpart for organisations cross-mapping 800-53 to ISO Annex A.
+- [NIST SP 800-207](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/NIST-800-207/CSW-NIST-800-207-Technical-Runbook.md) — the ZTA architectural overlay on top of the 800-53 control catalogue.
+- [NIST SP 800-207A](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/NIST-800-207A/CSW-NIST-800-207A-Technical-Runbook.md) — the logical-component view that operationalises AC, SI, SC families.
+- [FIPS 140](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/FIPS-140/CSW-FIPS-Technical-Runbook.md) — SC-13 cryptographic-protection requirement for the 800-53 baselines.
+- [HIPAA](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/HIPAA/CSW-HIPAA-Technical-Runbook.md) — for healthcare entities that satisfy §164.306 via 800-53 mapping.
 
 
-- [UK NCSC CAF v3.2](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/UK-NCSC-CAF/caf-mapping.md) — AC-4 and SC-7 are the reuse path for CAF B5.
+- [UK NCSC CAF v3.2](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/UK-NCSC-CAF/caf-mapping.md) — AC-4 and SC-7 are the reuse path for CAF B5.
 
 ---
 
@@ -280,4 +280,4 @@ CSW UI → Investigate → ADM
 
 ---
 
-*Part of the Cisco Secure Workload compliance reference-design series. Umbrella index: [CSW-Compliance-Mapping](https://github.com/chandrapati/CSW-Compliance-Mapping).*
+*Part of the Cisco Secure Workload compliance reference-design series. Umbrella index: [CSW-Compliance-Mapping](https://github.com/chandrapati/CSW-Compliance-Reference-Designs).*

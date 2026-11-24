@@ -71,6 +71,8 @@ Cisco Secure Workload (CSW) is a **workload protection platform**. A lightweight
 
 Execute these phases for **this framework's** compliance boundary. Map exports to control IDs in the **Reporting & Evidence** section below.
 
+![CSW evidence workflow for NIST SP 800-53 Rev 5 — the four phases from agent coverage through continuous proof, with the evidence artifact produced at each phase](assets/csw-evidence-workflow.png)
+
 | Phase | Goal | Key CSW actions | Typical duration |
 |-------|------|-----------------|------------------|
 | **1 — Coverage** | Every in-scope workload in CSW | Install agents/connectors; apply compliance labels; create scope | Days 1–10 |
@@ -108,7 +110,7 @@ Execute these phases for **this framework's** compliance boundary. Map exports t
 
 ### What CSW evidence does not replace
 
-Physical access, HR/training records, encryption key management, signed BAAs/vendor contracts, formal pen tests, and assessor attestation still require separate programmes. CSW addresses the **workload-resident** slice: segmentation, flows, process context, vuln reachability, and change drift.
+Physical access, HR/training records, encryption key management, signed vendor and processor contracts, formal pen tests, and assessor attestation still require separate programmes. CSW addresses the **workload-resident** slice: segmentation, flows, process context, vuln reachability, and change drift.
 
 ---
 
@@ -236,6 +238,9 @@ CSW UI → Investigate → ADM
 ## 3. Scope Architecture and Labeling
 
 The control families in section 2 are only auditable against a named
+
+![NIST SP 800-53 Rev 5 scope architecture — the recommended CSW scope hierarchy, with label-driven membership so the boundary stays current](assets/csw-scope-architecture.png)
+
 boundary. In an 800-53 engagement that boundary already exists on paper —
 it is the authorization boundary in the SSP — so the job here is to make
 the CSW scope tree a mirror of the SSP rather than a second, competing
@@ -243,6 +248,8 @@ inventory. When the two diverge, the assessor treats the CSW export as
 unreliable, which is a harder finding to close than a missing control.
 
 ### 3.1 Suggested Scope Architecture
+
+
 
 ```
 Root Scope
